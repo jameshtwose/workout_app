@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;              /* establish flex container */
+  flex-direction: column;     /* stack flex items vertically */
+  justify-content: center;    /* center items vertically, in this case */
+  align-items: center;        /* center items horizontally, in this case */
+  /* padding-top: 10%; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  align-content: center;
+  color: rgb(212, 14, 14);
+  padding-top:10%;
+}
+
+#choice {
+  align-content: center;
+  justify-content: center;
+  color: rgb(212, 14, 14);
+
+}
+
+#ChoiceDiv{
+  padding-top:50%;
+}
+
+#App {
+  align-content: center;
+}
+
+h4 a {
+  padding-top: 20px;
+  padding-left: 22.5%;
+  align-content: center;
+  justify-content: center;
+  color: rgb(212, 14, 14);
+}
