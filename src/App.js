@@ -11,12 +11,14 @@ const App = () => {
     // console.log(workoutJson["gifUrl"][qty])
 
     const exercise = workoutJson["gifUrl"][qty]
+    const exerciseName = workoutJson["name"][qty]
 
   return (
     <div className="App">
         <h1>Simple exercise chooser</h1>
 
         <img src={exercise} alt="exercise gif" />
+        <h4> {exerciseName} </h4>
 
         <div className="ChoiceDiv">
             <label>
@@ -25,7 +27,7 @@ const App = () => {
                 name="choice" 
                 id="choice"
                 min={0} 
-                max={350} 
+                max={324} 
                 value={qty} 
                 onChange={(value) => setQty(value)}
                 />
@@ -38,10 +40,6 @@ const App = () => {
             </a>
         </h4>
         
-
-        {/* <div className="my-details">
-            
-        </div> */}
 
     </div>
   );
